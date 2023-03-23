@@ -57,7 +57,6 @@ p{
 .content{
     gap: 3em;
     margin-top: 2em;
-    margin-left: 2em;
 }
 
 .title{
@@ -149,4 +148,10 @@ nav a:hover, a:focus{
 
 #home-img{
     box-shadow: 4px 8px 15px #4872FF; ;
+}
+
+.sample-code p{
+    background-color: rgb(214, 214, 214);
+    padding: 1em;
+    color: #000000;
 }
