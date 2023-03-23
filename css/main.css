@@ -1,13 +1,124 @@
 body{
-    margin: 0;
+    margin: 2em;
+    background: linear-gradient(to top, #000000, #292929);
 }
 
 h1{
     font-family: 'Libre Baskerville', serif;
+    font-weight: 700;
+    font-size: 4em;
+    color: #FFFFFF;
+}
+
+h2{
+    font-family: 'Libre Baskerville', serif;
     font-weight: 400;
+    font-size: 3em;
+    color: #FFFFFF;
+}
+
+h3{
+    font-family: 'Lato', sans-serif;
+    font-weight: 700;
+    font-size: 1.7em;
+    color: #FFFFFF;
+}
+
+h4{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    text-transform: uppercase;
+    color: #FFFFFF;
+}
+
+h5{
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
 }
 
 p{
     font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    color: #FFFFFF;
+}
+
+.container{
+    display: flex;
+    flex-direction: row;
+    border-top: 1px solid #FFFFFF;
+    gap: 8em;
+    margin-bottom: 2em;
+    flex-wrap: wrap;
+}
+
+.content{
+    margin-top: 2em;
+}
+
+.title{
+    display: flex;
+    margin-top: 15em;
+    margin-bottom: 15em;
+    margin-left: 15em;
+    margin-right: 15em;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+#style-guide{
+    color: #4872FF;
+}
+
+nav{
+    display: flex;
+    align-items: center;
+    gap: 10em;
+    padding-bottom: 1em;
+}
+
+nav h2{
+    font-size: 1.5em;
+}
+
+nav a{
+    text-decoration: none;
+    font-family: 'Lato', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    margin-left: 5em;
+}
+
+nav a:hover, a:focus{
+    color: #4872FF;
+}
+
+.btn{
+    border: 1px solid #FFFFFF;
+    display: inline-block;
+    padding-top: 1em;
+    padding-bottom: 1em;
+    font-family: 'Lato', sans-serif;
     font-weight: 700;
+    font-size: 0.8em;
+    text-decoration: none;
+    text-align: center;
+    color: #FFFFFF;
+    background: #000000;
+    -webkit-transition: background-color 0.5s ease-out;
+    transition: background-color 0.5s ease-out;
+    margin-bottom: 1.2em;
+    margin-top: 2em;
+    width: 13em;
+    box-shadow: 4px 8px 15px rgba(0, 0, 0, 0.2);
+}
+
+.btn:hover{
+    color: #4872FF;
+    border: 1px solid #FFFFFF;
+    background-color: #FFFFFF;
 }
