@@ -50,7 +50,9 @@ p{
     flex-direction: row;
     border-top: 1px solid #FFFFFF;
     gap: 8em;
-    margin-bottom: 2em;
+    margin: 2em;
+    padding-top: 2em;
+    align-items: center;
     flex-wrap: wrap;
 }
 
@@ -59,6 +61,9 @@ p{
     margin-top: 2em;
 }
 
+.content p{
+    max-width: 30em;
+}
 .title{
     display: flex;
     margin-top: 15em;
@@ -96,7 +101,7 @@ nav a{
     font-weight: 400;
     font-size: 1.2em;
     color: #FFFFFF;
-    margin-left: 5em;
+    margin-left: 4em;
 }
 
 nav a:hover, a:focus{
@@ -142,16 +147,25 @@ nav a:hover, a:focus{
     gap: 5em;
     align-content: center;
     justify-content: center;
-    margin-left: 13em;
+    padding-left: 20em;
     margin-top: 7em;
 }
 
 #home-img{
-    box-shadow: 4px 8px 15px #4872FF; ;
+    box-shadow: 4px 8px 15px #000000; 
 }
 
 .sample-code p{
     background-color: rgb(214, 214, 214);
-    padding: 1em;
+    padding: 0.5em;
     color: #000000;
+}
+
+.text-link{
+    text-decoration: none;
+    color: #4872FF;
+}
+
+.text-link:hover{
+    text-decoration: underline;
 }
