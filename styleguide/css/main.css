@@ -4,28 +4,28 @@ body{
 }
 
 h1{
-    font-family: 'Libre Baskerville', serif;
-    font-weight: 700;
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 600;
     font-size: 4em;
     color: #FFFFFF;
 }
 
 h2{
-    font-family: 'Libre Baskerville', serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 400;
     font-size: 3em;
     color: #FFFFFF;
 }
 
 h3{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 700;
     font-size: 1.7em;
     color: #FFFFFF;
 }
 
 h4{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 400;
     font-size: 1.2em;
     text-transform: uppercase;
@@ -40,7 +40,7 @@ h5{
 }
 
 p{
-    font-family: 'Lato', sans-serif;
+    font-family: 'Inter Tight', sans-serif;
     font-weight: 400;
     color: #FFFFFF;
 }
