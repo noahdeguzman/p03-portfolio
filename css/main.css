@@ -3,6 +3,14 @@ body{
    background-color: rgb(248, 248, 248);
 }
 
+.logo{
+    font-family: 'Inter Tight', sans-serif;
+    font-weight: 400;
+    font-size: 1.2em;
+    color: #FFFFFF;
+    margin: 0;
+}
+
 h1{
     font-family: 'Inter Tight', sans-serif;
     font-weight: 600;
@@ -233,7 +241,7 @@ nav a:hover, a:focus{
 
 .finisher-header{
     width: 100%;
-    height: 900px;
+    height: 1000px;
 }
 
 footer{
@@ -263,7 +271,7 @@ footer p{
 .bio{
     background-color: white;
     box-shadow: 4px 8px 15px #4872FF;
-    padding: 2em;
+    padding: 4em;
     height: 20.5em;
     margin-top: 5em;
 }
@@ -271,9 +279,9 @@ footer p{
 .contact-form{
     background-color: white;
     box-shadow: 4px 8px 15px #4872FF;
-    padding: 8em;
-    height: 23em;
-    margin-top: 3em;
+    padding: 4em;
+    height: 40em;
+
     justify-content: center;
 }
 
@@ -300,6 +308,7 @@ footer p{
     padding: 5em ;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3em;
@@ -319,6 +328,7 @@ footer p{
     padding: 5em ;
     display: flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     gap: 3em;
