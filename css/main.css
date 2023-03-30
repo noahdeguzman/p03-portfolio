@@ -1,6 +1,6 @@
 body{
     margin: 0;
-   background-color: white;
+   background-color: rgb(248, 248, 248);
 }
 
 h1{
@@ -203,8 +203,13 @@ nav a:hover, a:focus{
     text-decoration: underline;
 }
 
-.black-text h1, .black-text p{
+.black-text h1,.black-text p{
     color: #000000;
+}
+
+.black-text h3 {
+    color: #000000;
+    font-size: 1.3em;
 }
 
 .blue-link{
@@ -260,6 +265,20 @@ footer p{
     box-shadow: 4px 8px 15px #4872FF;
     padding: 2em;
     height: 20.5em;
+    margin-top: 5em;
+}
+
+.contact-form{
+    background-color: white;
+    box-shadow: 4px 8px 15px #4872FF;
+    padding: 8em;
+    height: 23em;
+    margin-top: 3em;
+    justify-content: center;
+}
+
+.contact-form h1{
+    margin-top: 0;
 }
 
 #two{
@@ -313,7 +332,6 @@ footer p{
 
 .project-container-black p{
     color: rgb(255, 255, 255);
-    max-width: 30em;
 }
 
 .flex-column{
@@ -329,4 +347,13 @@ footer p{
 
 .short-text{
     max-width: 30em;
+}
+
+.user-input {
+    margin: 0;
+    border-radius: 0;
+    width: 100%;
+    border: none;
+    border-bottom: 1px solid black;
+    outline: none;
 }
